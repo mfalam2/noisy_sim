@@ -27,7 +27,7 @@ def xy_ham(num_qubits):
     return sum(terms) 
 
 def xy_gate_noisy(t, q0, q1):
-    ''' compiles the 2 qubit XY interaction as a circuit of noisy IBM gates '''
+    ''' compiles the 2 qubit XY interaction as a circuit of noisy IBM superoperators '''
     return [
         (noisy_rz(np.pi/2), [q0,]), 
         (noisy_rz(-np.pi/2), [q1,]),
