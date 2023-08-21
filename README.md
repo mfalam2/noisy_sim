@@ -4,7 +4,7 @@ extract_noise_model.ipynb shows how to extract superoperators for noisy gates fr
 
 simulator.py is a bare-bones simulator for noisy circuits
 
-noisy_trotter.py implement Trotter evolution (so far, only first order and only the XY model) with noisy superoperators 
+noisy_trotter.py implements Trotter evolution (so far, only first order and only the XY model) with noisy superoperators 
 
 unit_tests.ipynb and 10q_runs.py serve as example codes. 
 
