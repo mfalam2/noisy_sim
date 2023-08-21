@@ -1,6 +1,6 @@
 # Simulating noisy quantum circuits with superoperators from IBM devices
 
-extract_noise_model.ipynb shows how to extract superoperators for noisy gates from an IBM device. It should be run on IBM Quantum Lab.
+extract_noise_model.ipynb shows how to extract superoperators for noisy gates from an IBM device. It should be run on IBM Quantum Lab. A result of executing this file is contained in ibm_perth_gates.pickle
 
 simulator.py is a bare-bones simulator for noisy circuits
 
