@@ -6,5 +6,7 @@ simulator.py is a bare-bones simulator for noisy circuits.
 
 noisy_trotter.py implements Trotter evolution (so far, only first order and only the XY model) with noisy superoperators. 
 
+noisy_vff.py implements VFF circuits built from Rz and Givens rotations with noisy superoperators.
+
 unit_tests.ipynb and 10q_runs.py serve as example codes.
 
